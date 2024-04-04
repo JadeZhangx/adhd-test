@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+body {
+    background-image: url('pink.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d ; 
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 15px;
+    color: #001e4d;
+    font-weight: 600;
+}
+#musicButton {
+    background: #f2d9f3;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100px;
+    border: 0;
+    padding: 10px auto; 
+    margin: 100px auto 0; 
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: #222;
+    color: #fff;
+}
+#next-btn{
+    background: #9cd5ed ;
+    color: #ffffff;
+    font-weight:500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.custom-content {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center align items horizontally */
+    gap: 20px; /* Space between items */
+    margin-top: 20px;
+}
+
+.custom-content ul,
+.custom-content li {
+    text-align: left; /* Ensure list items are left-aligned */
+}
+
+.custom-content a {
+    color: #007bff; /* Style for links */
+    text-decoration: underline;
+}
+
+
+
+

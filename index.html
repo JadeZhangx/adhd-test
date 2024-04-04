@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ADHD Self-Assessment Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>ADHD Self-Assessment Test</h1>
+    <div id="quiz-container" class="quiz">
+        <h2 id="question">Question text</h2>
+        <div id="answer-buttons" class="btn-grid">
+            <!-- Buttons will be generated here by JavaScript -->
+        </div>
+        <button id="next-btn" class="hide">Next</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<button id="musicButton" onclick="toggleMusic()">Play/Pause Music</button>
+
+
+<audio id="backgroundMusic" loop>
+    <source src="meditation.mp3" type="audio/mp3">
+</audio>
+
+
+<script>
+function toggleMusic() {
+    var music = document.getElementById("backgroundMusic");
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+}
+</script>
+
+<div id="customization"></div>
+
+
+</body>
+</html>
